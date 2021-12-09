@@ -1,0 +1,26 @@
+.new-mv .alltype {
+  display: flex;
+}
+.new-mv .alltype .type {
+  flex: 1;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.new-mv .alltype .active {
+  background-color: rgba(168, 19, 19, 0.418);
+}
+.new-mv .all-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 80vh;
+}
+.new-mv .all-card .item {
+  width: 48%;
+  margin-left: 5px;
+}
+.new-mv .all-card .item img {
+  height: 100px ;
+}

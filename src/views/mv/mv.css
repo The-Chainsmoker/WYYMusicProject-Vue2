@@ -1,0 +1,30 @@
+.mv .new-mv .top {
+  background-color: black;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mv .new-mv .top .title {
+  display: inline-block;
+  color: white;
+  margin-left: 110px;
+  line-height: 30px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.mv .new-mv .all-card {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: visible;
+  overflow: scroll;
+  height: 80vh;
+}
+.mv .new-mv .all-card .item {
+  width: 48.5%;
+  margin-left: 5px;
+}
+.mv .new-mv .all-card .item img {
+  height: 85px;
+  object-fit: cover;
+}

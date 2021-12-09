@@ -1,0 +1,64 @@
+.mv-detail {
+  overflow: scroll;
+  height: 90vh;
+  overflow-x: hidden;
+}
+.mv-detail .content .detail .title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 0;
+  color: white;
+  background-color: black;
+}
+.mv-detail .content .detail .title .back {
+  display: inline-block;
+  width: 100px;
+}
+.mv-detail .content .detail .title .name {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mv-detail .content .detail .mv-artist {
+  margin: 10px 5px;
+}
+.mv-detail .content .detail .mv-artist img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.mv-detail .content .detail .mv-artist .item {
+  vertical-align: middle;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.mv-detail .content .detail .mv-info {
+  margin: 0 5px;
+}
+.mv-detail .content .detail .mv-info .name {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 15px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mv-detail .content .detail .mv-info .send {
+  font-size: 10px;
+  color: #bababa;
+  margin-left: 5px;
+}
+.mv-detail .content .detail .mv-info .play {
+  font-size: 10px;
+  color: #bababa;
+  margin-left: 150px;
+}
+.mv-detail .content .detail .comment {
+  margin: 0 5px;
+}
+.mv-detail .content .detail .comment .title-comment {
+  margin-top: 40px;
+}

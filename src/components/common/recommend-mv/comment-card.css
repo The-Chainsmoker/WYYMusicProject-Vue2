@@ -1,0 +1,30 @@
+.comment-card {
+  padding-top: 10px;
+  display: flex;
+  border-bottom: 1px solid #bebebe8e;
+}
+.comment-card .left {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+  width: 40px;
+  height: 40px;
+}
+.comment-card .left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.comment-card .comment-content {
+  vertical-align: middle;
+  display: inline-block;
+}
+.comment-card .comment-content .text {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+.comment-card .comment-content .text span:nth-child(1) {
+  color: #255881;
+}

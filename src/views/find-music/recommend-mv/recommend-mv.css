@@ -1,0 +1,14 @@
+.recommend-mv .all-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 85vh;
+}
+.recommend-mv .all-card .item {
+  width: 48%;
+  margin-left: 5px;
+}
+.recommend-mv .all-card .item img {
+  height: 100px ;
+}

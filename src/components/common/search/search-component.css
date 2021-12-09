@@ -1,0 +1,12 @@
+.search .input-text {
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.search .input-text input {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-position: 145px;
+  outline: none;
+}
